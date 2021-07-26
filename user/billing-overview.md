@@ -86,10 +86,10 @@ Credits are deducted from your balance each time a build job starts a VM instanc
 | OS                   | # Credits per<br />started build minute |
 |:--------------------:|:-----------:|
 | Partner Queue        | 0           |
-| Linux                | 10          |
-| Experimental FreeBSD | 10          |
-| Windows              | 20          |
-| MacOS                | 50          |
+| Linux                | 100        |
+| Experimental FreeBSD | 100         |
+| Windows              | 200         |
+| MacOS                | 500         |
 
 Build job minutes are counted from the moment when [VM or LXD container](/user/reference/overview/#virtualization-environments) is spun up, thus queue waiting time or spinning-up time are not taken into account when calculating job duration time.
 
