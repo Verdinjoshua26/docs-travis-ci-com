@@ -18,7 +18,7 @@ gem 'rubocop', group: :test
 
 # All of this is for Slate / middleman
 
-gem "middleman"
+gem "middleman", ">= 4.1.11"
 
 # For syntax highlighting
 gem "middleman-syntax"
@@ -27,7 +27,7 @@ gem "middleman-syntax"
 gem 'middleman-gh-pages'
 
 # Live-reloading plugin
-gem "middleman-livereload", "~> 3.3.0"
+gem "middleman-livereload", "~> 3.4.1"
 
 gem 'redcarpet'
 
