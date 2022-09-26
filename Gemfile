@@ -3,22 +3,22 @@ source 'https://rubygems.org'
 ruby '2.4.3'
 
 gem 'faraday'
-gem 'html-proofer', '~> 3.0'
-gem 'jekyll', '>=3.1.6'
+gem 'html-proofer', '~> 3.10', '>= 3.10.0'
+gem 'jekyll', '>= 3.9.0'
 gem 'jekyll-paginate'
 gem 'jekyll-redirect-from'
-gem 'puma'
+gem 'puma', '>= 4.3.12'
 gem 'pry', group: :test
 gem 'rack-jekyll'
 gem 'rack-ssl-enforcer'
-gem 'rake'
+gem 'rake', '>= 12.3.3'
 gem 'rdiscount', '>=2.2.0.1'
 gem 'rubocop', group: :test
 
 
 # All of this is for Slate / middleman
 
-gem "middleman"
+gem "middleman", ">= 4.3.8"
 
 # For syntax highlighting
 gem "middleman-syntax"
@@ -27,9 +27,9 @@ gem "middleman-syntax"
 gem 'middleman-gh-pages'
 
 # Live-reloading plugin
-gem "middleman-livereload", "~> 3.3.0"
+gem "middleman-livereload", "~> 3.4.1"
 
-gem 'redcarpet'
+gem 'redcarpet', '>= 3.5.1'
 
 # Cross-templating language block fix for Ruby 1.8
 platforms :mri_18 do
