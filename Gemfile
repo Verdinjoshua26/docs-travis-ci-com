@@ -27,7 +27,7 @@ gem "middleman-syntax"
 gem 'middleman-gh-pages'
 
 # Live-reloading plugin
-gem "middleman-livereload", "~> 3.3.0"
+gem "middleman-livereload", "~> 3.3.4"
 
 gem 'redcarpet'
 
