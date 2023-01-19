@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.4.3'
 
 gem 'faraday'
-gem 'html-proofer', '~> 3.0'
+gem 'html-proofer', '~> 3.12', '>= 3.12.0'
 gem 'jekyll', '>=3.1.6'
 gem 'jekyll-paginate'
 gem 'jekyll-redirect-from'
@@ -18,7 +18,7 @@ gem 'rubocop', group: :test
 
 # All of this is for Slate / middleman
 
-gem "middleman"
+gem "middleman", ">= 4.4.0"
 
 # For syntax highlighting
 gem "middleman-syntax"
@@ -27,7 +27,7 @@ gem "middleman-syntax"
 gem 'middleman-gh-pages'
 
 # Live-reloading plugin
-gem "middleman-livereload", "~> 3.3.0"
+gem "middleman-livereload", "~> 3.4.1"
 
 gem 'redcarpet'
 
