@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.4.3'
 
 gem 'faraday'
-gem 'html-proofer', '~> 3.0'
+gem 'html-proofer', '~> 3.10', '>= 3.10.0'
 gem 'jekyll', '>=3.1.6'
 gem 'jekyll-paginate'
 gem 'jekyll-redirect-from'
@@ -27,7 +27,7 @@ gem "middleman-syntax"
 gem 'middleman-gh-pages'
 
 # Live-reloading plugin
-gem "middleman-livereload", "~> 3.3.0"
+gem "middleman-livereload", "~> 3.3.4"
 
 gem 'redcarpet'
 
